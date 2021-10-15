@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roman Jasiek">
+    <meta name="copyright" content="Roman Jasiek">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="expires" content="43200"/>
+    <title>Roman Jasiek | Web Development Student @ DCI</title>
+
+    <!-- Loading the CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Loading Google fonts locally for privacy reasons -->
+    <link rel="stylesheet" href="../css/fonts.css">
+
+    <!-- Loading Font Awesome locally for privacy reasons  -->
+    <link href="../fonts/fontawesome/css/all.css" rel="stylesheet">
+
+
+    <!-- Loading the Bootstrap CSS locally -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+
+
+    <!-- Including jquery locally, creating functionality for the "hamburger" menu -->
+    <script src="../jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(function() { $(".topmenu-de-toggle").on("click", function() { if ($(".topmenu-de-item").hasClass("active")) { $(".topmenu-de-item").removeClass("active"); $(this).find("a").htm("<i class='fas fa-bars'></i>"); } else { $(".topmenu-de-item").addClass("active"); $(this).find("a").htm("<i class='fas fa-times'></i>"); } }); });
+    </script>
+
+</head>
+
+<body>
+    <!-- The navbar on the top of the screen, also including a "hamburger" version for small screen sizes -->
+    <nav>
+        <ul class="topmenu">
+            <li class="topmenu-logo"><a href="index.html">Roman Jasiek</a></li>
+            <li class="topmenu-item"><a href="#about">Über mich</a></li>
+            <li class="topmenu-item"><a href="#services">Services</a></li>
+            <li class="topmenu-item"><a href="portfolio_de.htm">Portfolio</a></li>
+            <li class="topmenu-item"><a href="blog_de.htm">Blog</a></li>
+            <li class="topmenu-item"><a href="contact_de.htm">Kontakt</a></li>
+            <li class="topmenu-item"><a href="legalnotes_de.htm">Impressum / Datenschutz</a></li>
+            <li class="topmenu-item"><a href="../index.html" title="Language Selection"><i class="fas fa-globe"></i></li>
+            <li class="topmenu-toggle"><a href="#"><i class="fas fa-bars"></i></a></li> 
+        </ul>
+    </nav>
+
+<main>
+    <div class="portfolio_wrapper">
+        <h3>Blog</h3>
+        <p>Hier werde ich von Zeit zu Zeit über meine Fortschritte auf dem Weg zum Full Stack Developer berichten.</p>
+    </div>
+
+    <div class="blog_container">
+        
+        <!-- Create card for Project 1 here -->
+        <div class="card">
+            <div class="blog-item1"></div>
+            <div class="blog-card-container">
+                <div><h3><a href="blogentry1_de.html">Weiterbildung zum Full Stack Developer: Es geht los</a></h3></div>
+                <div><p>Nach erfolgreichem Abschluss des Orientierungskurses beim DCI (Digital Career Institute) von November 2020 bis Januar 2021 war es heute soweit: Der Startschuss für die einjährige Weiterentwicklung zum Web- und Softwareentwickler ist gefallen.</p></div>
+                <div><p><a href="blogentry1_de.html">Weiterlesen ...</a></p></div>
+            </div>
+        </div>
+
+        <!-- Create card for Project 2 here -->
+        <div class="card">
+            <div class="blog-item2"></div>
+            <div class="blog-card-container">
+                <div><h3><a href="blogentry2_de.html">Zwei Monate DCI: Eine kurze Übersicht</a></h3></div>
+                <div><p>Auf meinem Weg, durch die Ausbildung beim DCI zu einem Full Stack Developer zu werden, habe ich die ersten beiden Monate absolviert – Zeit also, Dir einen kleinen Eindruck davon zu geben, was in den vergangenen Wochen Thema war bzw. was ich gelernt habe. Das kann ich sagen: es ist eine Menge!</p></div>
+                <div><p><a href="blogentry2_de.html">Weiterlesen ...</a></p></div>
+            </div>
+        </div>
+    </div>
+    <div class="blogFooter_wrapper">
+        <h2>Wird fortgesetzt ...</h2>
+        <p>Meine Reise als Full Stack Developer hat gerade erst begonnen. In Zukunft werde ich hier weitere Projekte vorstellen. Also bleib dran!</p>
+    </div>
+</main>
+
+<footer>
+    <ul class="footer-menu">
+        <li class="footer-menu-item"><a href="tel:+491724563446"><i class="fas fa-phone-square-alt"></i>&nbsp;Mobile: +49 172 456 3 446</a></li>
+        <li class="footer-menu-item"><a href="mailto:romanjasiek@me.com?subject=Contact%20Request"><i class="fas fa-envelope-square"></i>&nbsp;romanjasiek@me.com</a></li>
+        <li class="footer-menu-item"><a href="https://www.linkedin.com/in/romanjasiek/"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
+        <li class="footer-menu-item"><a href="https://github.com/romanjasiek"><i class="fab fa-github-square"></i>&nbsp;GitHub</a></li>
+        <li class="footer-menu-item">Made in 2021 with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Magdeburg</li>
+    </ul>
+</footer>
+
+    <!-- Loading the Bootstrap script locally -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roman Jasiek">
+    <meta name="copyright" content="Roman Jasiek">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="expires" content="43200"/>
+    <title>Roman Jasiek | Web Development Student @ DCI</title>
+
+    <!-- Loading the CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Loading Google fonts locally for privacy reasons -->
+    <link rel="stylesheet" href="../css/fonts.css">
+
+    <!-- Loading Font Awesome locally for privacy reasons  -->
+    <link href="../fonts/fontawesome/css/all.css" rel="stylesheet">
+
+
+    <!-- Loading the Bootstrap CSS locally -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    <!-- Including jquery locally, creating functionality for the "hamburger" menu -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(function() { $(".topmenu-de-toggle").on("click", function() { if ($(".topmenu-de-item").hasClass("active")) { $(".topmenu-de-item").removeClass("active"); $(this).find("a").htm("<i class='fas fa-bars'></i>"); } else { $(".topmenu-de-item").addClass("active"); $(this).find("a").htm("<i class='fas fa-times'></i>"); } }); });
+    </script>
+
+</head>
+
+<body>
+    <!-- The navbar on the top of the screen, also including a "hamburger" version for small screen sizes -->
+    <nav>
+        <ul class="topmenu">
+            <li class="topmenu-logo"><a href="index.htm">Roman Jasiek</a></li>
+            <li class="topmenu-item"><a href="#about">Über mich</a></li>
+            <li class="topmenu-item"><a href="#services">Services</a></li>
+            <li class="topmenu-item"><a href="portfolio.htm">Portfolio</a></li>
+            <li class="topmenu-item"><a href="blog_de.htm">Blog</a></li>
+            <li class="topmenu-item"><a href="contact_de.htm">Kontakt</a></li>
+            <li class="topmenu-item"><a href="legalnotes_de.htm">Impressum / Datenschutz</a></li>
+            <li class="topmenu-item"><a href="../index.html" title="Language Selection"><i class="fas fa-globe"></i></li>
+            <li class="topmenu-toggle"><a href="#"><i class="fas fa-bars"></i></a></li> 
+        </ul>
+    </nav>
+
+<main>
+    <div class="wrapper">
+        <h3>Portfolio</h3>
+        <p>Auf dieser Seite möchte ich Dir zeigen, an welchen Projekten ich gearbeitet habe, was ich auf meinem Weg zum Full Stack Developer gemacht habe und woran ich gerade arbeite.</p>
+    </div>
+
+    <!-- Let's start with the things I learned at DCI -->
+<div class="portfolio_wrapper">
+    <h3>Student beim Digital Career Institute</h3>
+    <p>Zunächst möchte ich einige der Dinge vorstellen, die ich beim DCI gemacht habe.</p>
+</div>
+    <div class="portfolio_dci_container">
+        
+        <!-- Create card for Project 1 here -->
+        <div class="card">
+            <div class="portfolio-item-dci1"></div>
+            <div class="dci-card-container">
+                <div><h3>Portfolio</h3></div>
+                <div><p>Nur HTML, CSS und ein bisschen Bootstrap. Externe Ressourcen wurden aus Datenschutzgründen lokal eingebunden. Ich wollte ein schnelles, sauberes, einfaches und intuitives Design.</p></div>
+            </div>
+        </div>
+
+        <!-- Create card for Project 2 here -->
+        <div class="card">
+            <div class="portfolio-item-dci2"></div>
+            <div class="dci-card-container">
+                <div><h3>UI Test: Einfacher Webshop</h3></div>
+                <div><p>In diesem "End of Module"-Test mussten wir der Dinge, die wir in den letzten 9 Wochen gelernt haben, mit einbeziehen und versuchen, das Look & Feel eines sehr einfachen Webshops nachzubilden.</p></div>
+            </div>
+        </div>
+
+        <!-- Create card for Project 3 here -->
+        <div class="card">
+            <div class="portfolio-item-dci3"></div>
+            <div class="dci-card-container">
+                <div><h3>Ein einfaches Farbschema</h3></div>
+                <div><p>Der Name ist Programm. Das Ziel war es, ein responsives Farbschema mit einem Mobile-First-Ansatz zu erstellen. Außerdem sollten wir mit SCSS arbeiten, nicht nur mit CSS.</p></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Continue with own (Wordpress) projects -->
+<div class="portfolio_wrapper">
+    <h3>Wordpress</h3>
+    <p>Ich benutze Wordpress schon seit langer Zeit. Hier ist eine Auswahl von Projekten, die ich mit Wordpress realisiert habe.</p>
+</div>
+    <div class="portfolio_dci_container">
+        
+        <!-- Create card for Project 4 here -->
+        <div class="card">
+            <div class="portfolio-item-dci4"></div>
+            <div class="dci-card-container">
+                <div><h3><a href="https://music-evangelist.com" target="_blank">Music Evangelist</a></h3></div>
+                <div><p>Dies wird mein neuer Blog sein, der sich nur auf Musik konzentriert und wieder viele News, Reviews, Interviews und auch einige Specials beinhalten wird.</p></div>
+            </div>
+        </div>
+
+        <!-- Create card for Project 5 here -->
+        <div class="card">
+            <div class="portfolio-item-dci5"></div>
+            <div class="dci-card-container">
+                <div><h3><a href="https://avalost.blog" target="_blank">AVALOST</a></h3></div>
+                <div><p>Schwerpunkt war Musik, aber auch viele andere Dinge wie Film- und Spiele-Reviews und auch einige Reiseberichte wurden abgedeckt. Wird demnächst eingestellt.</p></div>
+            </div>
+        </div>
+
+        <!-- Create card for Project 6 here -->
+        <div class="card">
+            <div class="portfolio-item-dci6"></div>
+            <div class="dci-card-container">
+                <div><h3><a href="https://monochromereflections.com" target="_blank">Monochrome Reflections</a></h3></div>
+                <div><p>Früher bin ich viel gereist und habe auch viel fotografiert. Dies ist mein Schaukasten mit einigen meiner Fotoarbeiten. Nur Schwarz-Weiß-Bilder..</p></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- And finally the things I did for others -->
+<div class="portfolio_wrapper">
+    <h3>Projekte für Dritte</h3>
+    <p>In diesem Abschnitt möchte ich Dir zeigen, was ich für andere gemacht habe.</p>
+</div>
+    <div class="portfolio_dci_container">
+        
+        <!-- Create card for Project 7 here -->
+        <div class="card">
+            <div class="portfolio-item-dci7"></div>
+            <div class="dci-card-container">
+                <div><h3><a href="https://guiding-light.de" target="_blank">Guiding Light</a></h3></div>
+                <div><p>Ziel war es, eine alte HTML-basierte Website durch eine einfach zu verwaltende Wordpress-Installation zu ersetzen. Die Aufgaben umfassten Installation, Theme-Anpassung, eine kurze Einführung in die Bedienung von Wordpress, ...</p></div>
+            </div>
+        </div>
+
+        <!-- Create card for Project 8 here -->
+        <div class="card">
+            <div class="portfolio-item-dci8"></div>
+            <div class="dci-card-container">
+                <div><h3><a href="https://schottenschulle.de" target="_blank">Schottenschulle</a></h3></div>
+                <div><p>Ziel war es, eine alte HTML-basierte Website durch eine einfach zu verwaltende Wordpress-Installation zu ersetzen. Die Aufgaben umfassten Installation, Theme-Anpassung, eine kurze Einführung in die Bedienung von Wordpress, ...</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio_wrapper">
+        <h3>Wird fortgesetzt ...</h3>
+        <p>Meine Reise als Full Stack Developer hat gerade erst begonnen. In Zukunft werde ich hier weitere Projekte vorstellen. Also bleib dran!</p>
+    </div>
+
+</main>
+
+<footer>
+    <ul class="footer-menu">
+        <li class="footer-menu-item"><a href="tel:+491724563446"><i class="fas fa-phone-square-alt"></i>&nbsp;Mobile: +49 172 456 3 446</a></li>
+        <li class="footer-menu-item"><a href="mailto:romanjasiek@me.com?subject=Contact%20Request"><i class="fas fa-envelope-square"></i>&nbsp;romanjasiek@me.com</a></li>
+        <li class="footer-menu-item"><a href="https://www.linkedin.com/in/romanjasiek/"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
+        <li class="footer-menu-item"><a href="https://github.com/romanjasiek"><i class="fab fa-github-square"></i>&nbsp;GitHub</a></li>
+    </ul>
+</footer>
+
+    <!-- Loading the Bootstrap script locally -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

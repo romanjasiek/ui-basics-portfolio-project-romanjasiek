@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Roman Jasiek, Full Stack Developer (to be)"/>
+    <meta name="author" content="Roman Jasiek">
+    <meta name="copyright" content="Roman Jasiek">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="expires" content="43200"/>
+    <title>Roman Jasiek | Web Development Student @ DCI</title>
+
+    <!-- Loading the CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Loading Google fonts locally for privacy reasons -->
+    <link rel="stylesheet" href="../css/fonts.css">
+
+    <!-- Loading Font Awesome locally for privacy reasons  -->
+    <link href="../fonts/fontawesome/css/all.css" rel="stylesheet">
+
+
+    <!-- Loading the Bootstrap CSS locally -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    <!-- Including jquery locally, creating functionality for the "hamburger" menu -->
+    <script src="../jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(function() { $(".topmenu-de-toggle").on("click", function() { if ($(".topmenu-de-item").hasClass("active")) { $(".topmenu-de-item").removeClass("active"); $(this).find("a").htm("<i class='fas fa-bars'></i>"); } else { $(".topmenu-de-item").addClass("active"); $(this).find("a").htm("<i class='fas fa-times'></i>"); } }); });
+    </script>
+
+</head>
+
+<body>
+    <!-- The navbar on the top of the screen, also including a "hamburger" version for small screen sizes -->
+    <nav>
+        <ul class="topmenu-de">
+            <li class="topmenu-de-logo"><a href="index.htm">Roman Jasiek</a></li>
+            <li class="topmenu-de-item"><a href="#about">Über mich</a></li>
+            <li class="topmenu-de-item"><a href="#services">Services</a></li>
+            <li class="topmenu-de-item"><a href="portfolio_de.htm">Portfolio</a></li>
+            <li class="topmenu-de-item"><a href="blog_de.htm">Blog</a></li>
+            <li class="topmenu-de-item"><a href="contact_de.htm">Kontakt</a></li>
+            <li class="topmenu-de-item"><a href="legalnotes_de.htm">Impressum / Datenschutz</a></li>
+            <li class="topmenu-item"><a href="../index.html" title="Language Selection"><i class="fas fa-globe"></i></li>
+            <li class="topmenu-de-toggle"><a href="#"><i class="fas fa-bars"></i></a></li> 
+        </ul>
+    </nav>
+
+<main>
+    <!-- Introducing myself with a foto -->
+    <div id="about" class="container w-75">
+        <div class="row">
+            <div class="col-md-6"><img id="ProfilePicture" class="img-fluid" src="../img/romanjasiek.jpg" alt="Roman Jasiek"></div>
+            <div class="col-md-6">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h2>Blogger</h2>
+                      </div>
+                      <div class="carousel-item">
+                         <h2>Wordpress Enthusiast</h2>
+                      </div>
+                      <div class="carousel-item">
+                        <h2>Full Stack Developer</h2>
+                      </div>
+                    </div>
+                <h1>Roman Jasiek</h1>
+                <p>Hallo!</p>
+                <p>Ich bin <strong>Roman</strong>, ein Full Stack Developer, Wordpress-Enthusiast und Blogger aus Magdeburg. Schön, Dich kennenzulernen!</p>
+                <p>Auf dieser Seite möchte ich Dir einen kleinen Einblick in meine Arbeit geben. Ich bin neugierig, lernwillig und immer offen für Neues.</p>
+                <p>In meinem persönlichen und privaten Leben denke ich oft an ein Zitat von Roy T. Bennett: <em>Sprich mit Ehrlichkeit. Denke mit Aufrichtigkeit. Handle mit Integrität.</em> Und das ist es, was ich tue. Bitte erlaube mir, mich vorzustellen.</p>
+                <p>Herzliche Grüße</p>
+                <img class="signature" src="../img/signature.png" alt="Signature">
+            </div>
+        </div>
+        <div class="divider">
+        </div>
+        <!-- And now let's get to the details -->
+        <div><h3>Was ich mache und wer ich bin</h3></div>
+
+        <ul id="services" class="auto-grid">
+            <li>
+                <h4><i class="fas fa-file-code"></i>&nbsp;<span>Full Stack Developer</span></h4>
+                <p>Vom Frontend bis zum Backend: HTML, CSS, Bootstrap, Javascript, Datenbanken, ... und so weiter. Was auch immer es braucht, um Dein Business online zu bringen - ich bin für Dich da. PS: Ich habe diese Reise gerade als Student am Digital Career Institute begonnen. Wenn Du möchtest, behalte gern meinen Blog im Auge, um meine Fortschritte zu verfolgen.</p>
+            </li>
+            <li><h4><i class="fab fa-wordpress"></i>&nbsp;<span>Wordpress Enthusiast</span></h4>
+                <p>Das Erstellen von Websites mit WordPress ist eines meiner größten Interessen. Immer wieder probiere ich verschiedene Dinge aus, starte neue Projekte oder bringe Websites von Dritten online. Alles, was ich in Sachen WordPress, CMS, Online-Publishing bis heute weiß und kann, habe ich mir als Autodidakt beigebracht.</p>
+            </li>
+            <li>
+                <h4><i class="fas fa-rss-square"></i>&nbsp;<span>Blogger</span></h4>
+                <p>Ich habe meine ersten Blogs bereits in den späten 90er Jahren begonnen und seitdem mit vielen Partnern aus der Unterhaltungsindustrie zusammengearbeitet. Mein neuester Blog (wieder einer über Musik) ist bereits in Arbeit. Ich weiß wie man schreibt und wie man Deadlines einhält. Sicherlich kann das auch für Dein Business nützlich sein.</p>
+            </li>
+            <li>
+                <h4><i class="fas fa-file-signature"></i>&nbsp;<span>Auftragsautor</span></h4>
+                <p>Neben dem Bloggen kann ich auch Texte im Auftrag von anderen schreiben. Advertorials oder Biografien - kein Problem. So habe ich zum Beispiel die Bandbiografie der Berliner Elektro-Pop-Band Adam is a Girl anlässlich der Veröffentlichung von "Soldier" (Single + Video) im Jahr 2016 geschrieben. In unterschiedlichen Längen für unterschiedliche Formate/Plattformen.</p>
+            </li>
+            <li>
+                <h4><i class="fas fa-camera-retro"></i>&nbsp;Fotografie</h4>
+                <p>Die Artikel, die ich auf meinen eigenen Seiten veröffentliche, versuche ich meist mit selbst geschossenen Fotos zu illustrieren. Für Musikrezensionen verwende ich z. B. oft Konzertfotos, die ich selbst aufgenommen und dann mit Photoshop und Lightroom bearbeitet habe.</p>
+            </li>
+            <li>
+                <h4><i class="fas fa-pen-square"></i>&nbsp;Bildbearbeitung</h4>
+                <p>Ich bin kein Pixelmagier in Photoshop, aber meine Kenntnisse in Photoshop und Lightroom sind ausreichend sicher, um meine Projekte adäquat zu illustrieren.</p>
+            </li>
+          </ul>
+</main>
+
+<footer>
+    <ul class="footer-menu">
+        <li class="footer-menu-item"><a href="tel:+491724563446"><i class="fas fa-phone-square-alt"></i>&nbsp;Mobil: +49 172 456 3 446</a></li>
+        <li class="footer-menu-item"><a href="mailto:romanjasiek@me.com?subject=Kontaktanfrage"><i class="fas fa-envelope-square"></i>&nbsp;romanjasiek@me.com</a></li>
+        <li class="footer-menu-item"><a href="https://www.linkedin.com/in/romanjasiek/"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
+        <li class="footer-menu-item"><a href="https://github.com/romanjasiek"><i class="fab fa-github-square"></i>&nbsp;GitHub</a></li>
+        <li class="footer-menu-item">Made in 2021 with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Magdeburg</li>
+    </ul>
+</footer>
+
+    <!-- Loading the Bootstrap script locally -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

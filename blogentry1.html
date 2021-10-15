@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Roman Jasiek, Full Stack Developer (to be)"/>
+    <meta name="author" content="Roman Jasiek">
+    <meta name="copyright" content="Roman Jasiek">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="expires" content="43200"/>
+    <title>Roman Jasiek | Web Development Student @ DCI</title>
+
+    <!-- Loading the CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Loading Google fonts locally for privacy reasons -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- Loading Font Awesome locally for privacy reasons  -->
+    <link href="fonts/fontawesome/css/all.css" rel="stylesheet">
+
+
+    <!-- Loading the Bootstrap CSS locally -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+
+
+    <!-- Including jquery locally, creating functionality for the "hamburger" menu -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(function() { $(".topmenu-toggle").on("click", function() { if ($(".topmenu-item").hasClass("active")) { $(".topmenu-item").removeClass("active"); $(this).find("a").html("<i class='fas fa-bars'></i>"); } else { $(".topmenu-item").addClass("active"); $(this).find("a").html("<i class='fas fa-times'></i>"); } }); });
+    </script>
+
+</head>
+
+<body>
+    <!-- The navbar on the top of the screen, also including a "hamburger" version for small screen sizes -->
+    <nav>
+        <ul class="topmenu">
+            <li class="topmenu-logo"><a href="index.html">Roman Jasiek</a></li>
+            <li class="topmenu-item"><a href="#about">About</a></li>
+            <li class="topmenu-item"><a href="#services">Services</a></li>
+            <li class="topmenu-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="topmenu-item"><a href="blog.html">Blog</a></li>
+            <li class="topmenu-item"><a href="contact.html">Contact</a></li>
+            <li class="topmenu-item"><a href="legalnotes.html">Legal Notes / Privacy</a></li>
+            <li class="topmenu-item"><a href="/de/index.html" title="Language Selection"><i class="fas fa-globe"></i></li>
+            <li class="topmenu-toggle"><a href="#"><i class="fas fa-bars"></i></a></li> 
+        </ul>
+    </nav>
+
+<main>
+    <div class="wrapper">
+        <div class="blogEntry1TitleImage"></div>
+        <div>
+            <h3 class="blogEntryTitle">Becoming a Full Stack Developer: Here we go</h3>
+            <p class="blogDate">February 1, 2021</p>
+            <p>After successfully completing the orientation course at the DCI (Digital Career Institute) from November 2020 to January 2021, today was the day: The starting signal was given for the one-year further development to become a Full Stack Developer.</p>
+            <p>Of the participants in the orientation course, I only saw two familiar faces again out of what used to be 14 or 15 potential candidates. Whether the others have decided to take the Online Marketing course, are starting the annual course later or have already started, or are simply no longer with us in the class, I am not able to say.</p>
+            <p>Well, I've obviously been very lucky that my job center agent has approved the complete course and I can now lay the foundations for a new career. I am looking forward to the coming months and am very excited about what awaits me!</p>
+        </div>
+        <div>
+            <p>Photo by <a href="https://unsplash.com/@dsmacinnes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Danielle MacInnes</a> on <a href="https://unsplash.com/s/photos/web-development?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
+    </div>
+    <div class="blogFooter_wrapper">
+        <h2>To be continued ...</h2>
+        <p>My journey as a Full Stack Developer has only just begun. In the future I will post more blog entries here. Stay tuned!</p>
+    </div>
+</main>
+
+<footer>
+    <ul class="footer-menu">
+        <li class="footer-menu-item"><a href="tel:+491724563446"><i class="fas fa-phone-square-alt"></i>&nbsp;Mobile: +49 172 456 3 446</a></li>
+        <li class="footer-menu-item"><a href="mailto:romanjasiek@me.com?subject=Contact%20Request"><i class="fas fa-envelope-square"></i>&nbsp;romanjasiek@me.com</a></li>
+        <li class="footer-menu-item"><a href="https://www.linkedin.com/in/romanjasiek/"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
+        <li class="footer-menu-item"><a href="https://github.com/romanjasiek"><i class="fab fa-github-square"></i>&nbsp;GitHub</a></li>
+        <li class="footer-menu-item">Made in 2021 with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Magdeburg</li>
+    </ul>
+</footer>
+
+    <!-- Loading the Bootstrap script locally -->
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

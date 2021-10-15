@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Roman Jasiek, Full Stack Developer (to be)"/>
+    <meta name="author" content="Roman Jasiek">
+    <meta name="copyright" content="Roman Jasiek">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="expires" content="43200"/>
+    <title>Roman Jasiek | Web Development Student @ DCI</title>
+
+    <!-- Loading the CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Loading Google fonts locally for privacy reasons -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- Loading Font Awesome locally for privacy reasons  -->
+    <link href="fonts/fontawesome/css/all.css" rel="stylesheet">
+
+
+    <!-- Loading the Bootstrap CSS locally -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+
+
+    <!-- Including jquery locally, creating functionality for the "hamburger" menu -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(function() { $(".topmenu-toggle").on("click", function() { if ($(".topmenu-item").hasClass("active")) { $(".topmenu-item").removeClass("active"); $(this).find("a").html("<i class='fas fa-bars'></i>"); } else { $(".topmenu-item").addClass("active"); $(this).find("a").html("<i class='fas fa-times'></i>"); } }); });
+    </script>
+
+</head>
+
+<body>
+    <!-- The navbar on the top of the screen, also including a "hamburger" version for small screen sizes -->
+    <nav>
+        <ul class="topmenu">
+            <li class="topmenu-logo"><a href="index.html">Roman Jasiek</a></li>
+            <li class="topmenu-item"><a href="#about">About</a></li>
+            <li class="topmenu-item"><a href="#services">Services</a></li>
+            <li class="topmenu-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="topmenu-item"><a href="blog.html">Blog</a></li>
+            <li class="topmenu-item"><a href="contact.html">Contact</a></li>
+            <li class="topmenu-item"><a href="legalnotes.html">Legal Notes / Privacy</a></li>
+            <li class="topmenu-item"><a href="/de/index.html" title="Language Selection"><i class="fas fa-globe"></i></li>
+            <li class="topmenu-toggle"><a href="#"><i class="fas fa-bars"></i></a></li> 
+        </ul>
+    </nav>
+
+<main>
+    <div class="wrapper">
+        <div class="blogEntry2TitleImage"></div>
+        <div>
+            <h3 class="blogEntryTitle">The first two months at the DCI: a brief overview</h3>
+            <p class="blogDate">April 1, 2021</p>
+            <p>On my way to become a Full Stack Developer through the training at the DCI, I have completed the first two months - so it's time to give you a little impression of what has been covered respectively what I have learned in the past weeks. Trust me, it's a lot!</p>
+            <p>The first two weeks dealt with very basic things, therefore the module was also called Basic Digital Literacy. Besides very general information (what is an OS? Which Operating Systems are there? And so on) we dealt with command line or terminal commands based on Linux. Afterwards, we made a rather extensive excursion into the world of Git and GitHub, after all, we would be cloning the daily exercises via GitHub Classroom and pushing them back into the appropriate repository over the course of the coming weeks.</p>
+            <p>We continued with the basics of HTML, for which we were given a lot of time. In addition to the basic structure of an HTML page, we learned the use of tags, we created forms, lists, the integration of images or media and so on. This was followed by a very extensive block on the topic of CSS, in which we of course first dealt with the basics before moving on to more specific topics such as animations with @keyframes and similar things.</p>
+            <p>The first two months were really packed with knowledge that was shared with us: In daily, more than seven-hour lasting Zoom sessions (because of the pandemic, everything only takes place remotely), completely in English. We are a class of about 20 students, a diverse group of people from different parts of the world and with different backgrounds.</p>
+            <p>So that my evolution on the way to become a Full Stack Developer can be better understood, I will upload or link the results of the exercises (we always do a sometimes more, sometimes less extensive exercise every day at the end of a lesson) here bit by bit.</p>
+            <p>On top of that, I'm additionally keeping myself busy with courses from Pirple.com, Udemy, Frontend Masters, Mimo and similar platforms to further deepen the knowledge imparted by DCI. In fact, I'm just trying to make the most of the year and soak up as much knowledge as I somehow can.</p>
+            <p>I have to say, it's all very exciting and I'm looking forward to the coming weeks and months when we deal with topics where I don't have any prior knowledge. JavaScript for example. I'll be happy to keep you updated furthermore, thank you very much for reading.</p>
+        </div>
+        <div>
+            <p>Photo by <a href="https://unsplash.com/@tjerwin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Trent Erwin</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
+    </div>
+    <div class="blogFooter_wrapper">
+        <h2>To be continued ...</h2>
+        <p>My journey as a Full Stack Developer has only just begun. In the future I will post more blog entries here. Stay tuned!</p>
+    </div>
+</main>
+
+<footer>
+    <ul class="footer-menu">
+        <li class="footer-menu-item"><a href="tel:+491724563446"><i class="fas fa-phone-square-alt"></i>&nbsp;Mobile: +49 172 456 3 446</a></li>
+        <li class="footer-menu-item"><a href="mailto:romanjasiek@me.com?subject=Contact%20Request"><i class="fas fa-envelope-square"></i>&nbsp;romanjasiek@me.com</a></li>
+        <li class="footer-menu-item"><a href="https://www.linkedin.com/in/romanjasiek/"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a></li>
+        <li class="footer-menu-item"><a href="https://github.com/romanjasiek"><i class="fab fa-github-square"></i>&nbsp;GitHub</a></li>
+        <li class="footer-menu-item">Made in 2021 with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Magdeburg</li>
+    </ul>
+</footer>
+
+    <!-- Loading the Bootstrap script locally -->
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
